@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dfcff4addc177396c844800bca63a2d",
+    "content-hash": "e3340237909aa13be4942918f742cd42",
     "packages": [
         {
             "name": "composer/installers",
@@ -611,7 +611,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/yith-woocommerce-compare.2.1.0.zip",
-                "reference": null,
+                "reference": "tags/2.1.0",
                 "shasum": null
             },
             "require": {
@@ -639,6 +639,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/yith-woocommerce-wishlist/"
+        },
+        {
+            "name": "wpackagist-theme/store",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/store/",
+                "reference": "1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/store.1.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/store/"
         }
     ],
     "packages-dev": [
