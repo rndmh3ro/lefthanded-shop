@@ -9,7 +9,7 @@ wordpress_sites:
         redirects:
           - www.lefthanded-shop.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:rndmh3ro/bedrock.git
+    repo: git@github.com:rndmh3ro/lefthanded-shop.git
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
@@ -19,3 +19,6 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: true
+      duration: 30s
+      skip_cache_uri: /wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml
+      skip_cache_cookie: comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in

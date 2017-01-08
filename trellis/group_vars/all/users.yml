@@ -7,14 +7,14 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '/home/basti/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      #- "{{ lookup('file', '/home/basti/.ssh/id_rsa.pub') }}"
+       - https://github.com/rndmh3ro.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '/home/basti/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      #- "{{ lookup('file', '/home/basti/.ssh/id_rsa.pub') }}"
+       - https://github.com/rndmh3ro.keys
 
 web_user: web
 web_group: www-data
