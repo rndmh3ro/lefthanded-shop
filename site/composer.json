@@ -39,7 +39,21 @@
     "johnpbloch/wordpress": "4.7",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/all-in-one-wp-migration": "5.56"
+    "wpackagist-plugin/all-in-one-wp-migration": "^6.38",
+    "wpackagist-plugin/footer-javascript": "^0.4.1",
+    "wpackagist-plugin/regenerate-thumbnails": "^2.2",
+    "wpackagist-plugin/woocommerce-new-product-badge": "^0.3.0",
+    "wpackagist-plugin/yith-woocommerce-wishlist": "^2.0",
+    "wpackagist-plugin/homepage-control": "^2.0",
+    "wpackagist-plugin/woocommerce-product-archive-customiser": "^1.0",
+    "wpackagist-plugin/contact-form-7": "^4.6",
+    "wpackagist-plugin/image-widget": "^4.2",
+    "wpackagist-plugin/w3-total-cache": "0.9.5.1",
+    "wpackagist-plugin/woocommerce-sold-out-products": "^1.0",
+    "wpackagist-plugin/wysija-newsletters": "^2.7",
+    "wpackagist-plugin/woocommerce": "^2.6",
+    "wpackagist-plugin/wordpress-seo": "^4.0",
+    "wpackagist-plugin/yith-woocommerce-compare": "^2.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
