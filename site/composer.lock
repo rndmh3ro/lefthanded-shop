@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cef0690c66ed9cfd66c483633d0669f9",
+    "content-hash": "89a3944a6e05f093e7e64e5d0512d73b",
     "packages": [
         {
             "name": "composer/installers",
@@ -351,7 +351,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
-                "reference": null,
+                "reference": "tags/2.3.11.1",
                 "shasum": null
             },
             "require": {
@@ -359,6 +359,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-wp-migration",
+            "version": "6.38",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
+                "reference": "tags/6.38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.6.38.zip",
+                "reference": "tags/6.38",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
@@ -399,6 +419,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/footer-javascript/"
+        },
+        {
+            "name": "wpackagist-plugin/payments-gateway-amazon-woocommerce",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/payments-gateway-amazon-woocommerce/",
+                "reference": "tags/1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/payments-gateway-amazon-woocommerce.1.0.2.zip",
+                "reference": "tags/1.0.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/payments-gateway-amazon-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
@@ -579,26 +619,6 @@
                 "standards"
             ],
             "time": "2016-11-30T04:02:31+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "6.38",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/6.38"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.6.38.zip",
-                "reference": "tags/6.38",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
         },
         {
             "name": "wpackagist-plugin/homepage-control",
